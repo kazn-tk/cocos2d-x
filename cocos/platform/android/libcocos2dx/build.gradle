@@ -1,6 +1,8 @@
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'org.cocos2dx.lib'
+
     compileSdkVersion PROP_COMPILE_SDK_VERSION.toInteger()
 
     defaultConfig {
@@ -19,7 +21,7 @@ android {
     buildTypes {
         release {
             minifyEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }
