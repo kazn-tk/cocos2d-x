@@ -27,6 +27,7 @@
 
 #import <OpenAL/al.h>
 
+#include <functional>
 #include <string>
 #include <mutex>
 #include <vector>
