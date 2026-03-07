@@ -28,7 +28,7 @@
 #import "platform/ios/CCDirectorCaller-ios.h"
 
 #import <Foundation/Foundation.h>
-#import <OpenGLES/EAGL.h>
+//#import <OpenGLES/EAGL.h>
 
 #import "base/CCDirector.h"
 #import "platform/ios/CCEAGLView-ios.h"
